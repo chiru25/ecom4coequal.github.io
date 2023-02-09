@@ -1,0 +1,137 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+p{
+    color: rgb(99, 53, 53);
+}
+.container{
+    max-width: 1300px;
+    justify-content: center;
+}
+.container h1{
+    font-size: 75px;
+    text-align: center;
+    color: #fff;
+}
+
+header {
+    background:radial-gradient(rgb(7, 7, 7),rgb(224, 210, 210))
+  }
+
+  header nav ul {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+
+  header nav ul li {
+    margin-right: 1em;
+  }
+
+  header nav a {
+    color: rgb(245, 241, 241);
+    text-shadow: #d12424;
+    text-decoration: wavy;
+  }
+  .active{
+    color: #d12424;
+    text-decoration: underline;
+    font-size: 19px;
+    text-align: justify;
+  }  
+  .row{
+      display: flex;
+      margin: 0 50px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .row2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+ .col{
+     flex-basis: 50%;
+     min-width: 300px;
+     min-height: 300px;
+ }
+ .col img{
+     max-width: 100%;
+     padding: 50px 0;
+ }
+ .col h1{
+     font-size: 50px;
+     line-height: 60px;
+     margin: 25px 0;
+ }
+ .btn{
+     display: inline-block;
+     background: #474444;
+     color: #fff;
+     padding: 8px 30px;
+     margin: 30px 0;
+     border-radius: 30px;
+ }
+ 
+ .col2{
+     flex-basis: 30%;
+     min-width: 200px;
+     padding: 20px;
+     width: 100%;
+     transition: 0.5s;
+ }
+ .col2:hover{
+     transform: translateY(5px);
+ }
+ .smcon{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     padding-left: 25px;
+     padding-right: 25px;
+ }
+ .cat{
+    margin: 1px 1px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+  .slider1{
+    text-align: center;
+  }
+
+  .slider{
+    width:90%;
+    height:500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 20px auto;
+}
+#img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+img{
+    width:100%;
+    height:100%;
+}

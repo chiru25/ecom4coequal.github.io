@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container"><h1>E-com</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="Login.html">Account</a></li>
+                </ul>
+            </nav>
+        
+            
+        </div>
+    </header>
+    
+      <div class="slider">
+        <div id="img"> </div>
+ </div>
+ <div class="slider1">
+    <div id="img1">
+         
+         
+            <h1>E-com offers</h1>
+            <p>Offers on the products</p>
+            <a href="#" class="btn">Explore &#8594</a>
+        
+     </div>
+</div>
+
+      <script>var img = document.getElementById('img');
+
+        var slides=['IMG_20201015_145138_713.jpg','spider.jpg','DSC_0436.jpg'];
+        
+        var Start=0;
+        
+        function slider(){
+            if(Start<slides.length){
+                Start=Start+1;
+            }
+            else{
+                Start=1;
+            }
+            console.log(img);
+            img.innerHTML = "<img src="+slides[Start-1]+">";
+           
+        }
+        setInterval(slider,2000);
+        </script>
+
+      <div class="row">
+        
+            
+        </div>
+    </div>
+        
+        
+
+ 
+    
+<h2>Categories</h2>
+
+
+    <!----->
+    <div class="cat">
+        <div class="smcon">
+            <div class="row2">
+                <div class="col2">
+                    <img src="1349499999935.jpg" alt="img">A
+                </div>
+                <div class="col2">
+                    <img src="1349499999935.jpg" alt="img">B
+                </div>
+                <div class="col2">
+                    <img src="1349499999935.jpg" alt="img">C
+                </div>
+                
+    
+            </div>
+    
+
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>
